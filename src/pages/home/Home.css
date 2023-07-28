@@ -1,0 +1,266 @@
+.coming-soon {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    height: 100%;
+  }
+  .coming-soon .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .coming-soon .container .card {
+    position: relative;
+    width: 300px;
+    height: 320px;
+  }
+  .coming-soon .container .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .coming-soon .container .card span {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    color: black;
+    width: 70%;
+    height: 40px;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 200;
+  }
+  .heading {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  @media (max-width: 767px) {
+    
+    .coming-soon {
+      margin-top: 40px;
+      margin-bottom: 40px;
+      width: 100%;
+      height: 100%;
+    }
+    .coming-soon .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      gap: 15px;
+    }
+    .coming-soon .container .card {
+      position: relative;
+      width: 300px;
+      height: 320px;
+    }
+    .coming-soon .container .card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    .coming-soon .container .card span {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background-color: #fff;
+      color: black;
+      width: 70%;
+      height: 40px;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 20px;
+      text-transform: uppercase;
+      font-weight: 200;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .coming-soon {
+      margin-top: 40px;
+      margin-bottom: 40px;
+      width: 100%;
+      height: 100%;
+    }
+    .coming-soon .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 15px;
+    }
+    .coming-soon .container .card {
+      position: relative;
+      width: 300px;
+      height: 320px;
+    }
+    .coming-soon .container .card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    .coming-soon .container .card span {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background-color: #fff;
+      color: black;
+      width: 70%;
+      height: 40px;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 20px;
+      text-transform: uppercase;
+      font-weight: 200;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    
+    .coming-soon {
+      margin-top: 40px;
+      margin-bottom: 40px;
+      width: 100%;
+      height: 100%;
+    }
+    .coming-soon .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .coming-soon .container .card {
+      position: relative;
+      width: 300px;
+      height: 320px;
+    }
+    .coming-soon .container .card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    .coming-soon .container .card span {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background-color: #fff;
+      color: black;
+      width: 70%;
+      height: 40px;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 20px;
+      text-transform: uppercase;
+      font-weight: 200;
+    }
+  }
+  @media (min-width: 1200px) {
+    
+    .coming-soon {
+      margin-top: 40px;
+      margin-bottom: 40px;
+      width: 100%;
+      height: 100%;
+    }
+    .coming-soon .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .coming-soon .container .card {
+      position: relative;
+      width: 300px;
+      height: 320px;
+    }
+    .coming-soon .container .card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    .coming-soon .container .card span {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background-color: #fff;
+      color: black;
+      width: 70%;
+      height: 40px;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 20px;
+      text-transform: uppercase;
+      font-weight: 200;
+    }
+  }
+  
+  .section-fin {
+    margin-top: 50px;
+    background-image: url(./../../assets/images/main_carousel.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: hue;
+    background-color: rgba(0, 0, 0, 0.393);
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.box-video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+}
+.section1{
+    background-image: url(./../../assets/images/homeBg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+.box-section1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    
+}
+.box-section1 a{
+    text-decoration: none;
+    color: black;
+    padding: 8px 18px;
+    border-radius: 20px;
+    background-color: white;
+    
+    
+}
+hr{
+    font-weight: bold;
+    font-size: 30px;
+}

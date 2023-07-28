@@ -1,0 +1,35 @@
+.scroll-to-top-btn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50%;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .scroll-to-top-btn.visible {
+    display: block;
+  }
+  
+
+  @media (max-width: 1024px) {
+    .scroll-to-top-btn {
+      bottom: 15px;
+      right: 15px;
+      font-size: 14px;
+    }
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .scroll-to-top-btn {
+      bottom: 10px;
+      right: 10px;
+      font-size: 12px;
+    }
+  }

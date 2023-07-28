@@ -1,0 +1,263 @@
+.tabs {
+    margin-top: 40px;
+  }
+  .tabs .react-tabs__tab-list {
+    text-align: center;
+  }
+  .tabs .box-tabs {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .tabs .box-tabs .itemss {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    width: 300px;
+    height: auto;
+    transition: all 0.4 ease-in;
+  }
+  .tabs .box-tabs .itemss .image-itemss {
+    width: 100%;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s;
+  }
+  .tabs .box-tabs .itemss .image-itemss img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .tabs .box-tabs .itemss .image-itemss .add {
+    font-size: 30px;
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    background-color: #000;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+    user-select: none;
+    border-radius: 30px;
+  }
+  .tabs .box-tabs .itemss .image-itemss .add p {
+    font-size: 17px;
+    font-weight: 200;
+  }
+  .tabs .box-tabs .itemss .info-itemss h1 {
+    font-size: 20px;
+    font-weight: 200;
+  }
+  .tabs .box-tabs .itemss span {
+    font-size: 12px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #f40f0f;
+    color: white;
+    padding: 1px 8px;
+    border-radius: 10px;
+  }
+  .tabs .box-tabs .itemss .fav {
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #1d1200;
+    cursor: pointer;
+  }
+  .tabs .box-tabs .image-itemss:hover .add {
+    bottom: 10px;
+  }
+  @media (max-width: 767px) {
+    .tabs .react-tabs__tab-list {
+      text-align: center;
+    }
+    .tabs .box-tabs {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .tabs .box-tabs .itemss {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      position: relative;
+      width: 100%;
+      height: auto;
+    }
+    .tabs .box-tabs .itemss .image-itemss {
+      width: 100%;
+      height: 350px;
+    }
+    .tabs .box-tabs .itemss .image-itemss img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .tabs .box-tabs .itemss .info-itemss h1 {
+      font-size: 20px;
+      font-weight: 200;
+    }
+    .tabs .box-tabs .itemss span {
+      font-size: 12px;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background-color: #f40f0f;
+      color: white;
+      padding: 1px 8px;
+      border-radius: 10px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .tabs {
+      margin-top: 40px;
+    }
+    .tabs .react-tabs__tab-list {
+      text-align: center;
+    }
+    .tabs .box-tabs {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .tabs .box-tabs .itemss {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      position: relative;
+      width: 300px;
+      height: auto;
+    }
+    .tabs .box-tabs .itemss .image-itemss {
+      width: 100%;
+      height: 350px;
+    }
+    .tabs .box-tabs .itemss .image-itemss img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .tabs .box-tabs .itemss .info-itemss h1 {
+      font-size: 20px;
+      font-weight: 200;
+    }
+    .tabs .box-tabs .itemss span {
+      font-size: 12px;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background-color: #f40f0f;
+      color: white;
+      padding: 1px 8px;
+      border-radius: 10px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .tabs {
+      margin-top: 40px;
+    }
+    .tabs .react-tabs__tab-list {
+      text-align: center;
+    }
+    .tabs .box-tabs {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .tabs .box-tabs .itemss {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      position: relative;
+      width: 300px;
+      height: auto;
+    }
+    .tabs .box-tabs .itemss .image-itemss {
+      width: 100%;
+      height: 350px;
+    }
+    .tabs .box-tabs .itemss .image-itemss img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .tabs .box-tabs .itemss .info-itemss h1 {
+      font-size: 20px;
+      font-weight: 200;
+    }
+    .tabs .box-tabs .itemss span {
+      font-size: 12px;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background-color: #f40f0f;
+      color: white;
+      padding: 1px 8px;
+      border-radius: 10px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .tabs {
+      margin-top: 40px;
+    }
+    .tabs .react-tabs__tab-list {
+      text-align: center;
+    }
+    .tabs .box-tabs {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .tabs .box-tabs .itemss {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      position: relative;
+      width: 300px;
+      height: auto;
+    }
+    .tabs .box-tabs .itemss .image-itemss {
+      width: 100%;
+      height: 350px;
+    }
+    .tabs .box-tabs .itemss .image-itemss img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .tabs .box-tabs .itemss .info-itemss h1 {
+      font-size: 20px;
+      font-weight: 200;
+    }
+    .tabs .box-tabs .itemss span {
+      font-size: 12px;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background-color: #f40f0f;
+      color: white;
+      padding: 1px 8px;
+      border-radius: 10px;
+    }
+  }
+  

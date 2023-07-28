@@ -1,0 +1,43 @@
+.bg-About {
+    background-image:url("./../../assets/images/bgContact.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.53);
+    background-blend-mode: hue;
+    width: 100%;
+    position: relative;
+}
+.title-about{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.box-about{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 7%;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+.img-about img{
+    width: 300px;
+    height: 450px;
+}
+.text-about p{
+    color: grey;
+}
+
+@media (min-width:320px) and (max-width:426px){
+    .box-about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}

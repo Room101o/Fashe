@@ -1,0 +1,45 @@
+.header{
+    height: 90px;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    gap: 30%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.logo{
+    color: black;
+    font-weight: bold;
+}
+span{
+    color: red;
+}
+.navBar a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+.icon-header a{
+    color: black;
+    font-size: 20px;
+}
+@media (max-width: 1024px) {
+    .header {
+      gap: 20%;
+      padding-left: 3%;
+      padding-right: 3%;
+    }
+  
+    .logo {
+      font-size: 18px;
+    }
+  
+    .navBar a {
+      font-size: 16px;
+    }
+  
+    .icon-header a {
+      font-size: 18px;
+    }
+  }
